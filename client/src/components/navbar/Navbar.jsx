@@ -1,10 +1,24 @@
 import "./Navbar.scss"
 import {Search,Notifications,ArrowDropDown} from "@material-ui/icons"
-
+import { useState } from "react";
 
 const Navbar = () => {
+
+
+    // to make navbar style change while scroll
+
+    const [isScrolled,setIsScrolled]=useState(false);
+    
+    window.onscroll = () =>{
+        setIsScrolled(window.pageYOffset === 0 ? false:true)
+        return ()=> (window.onscroll=null);
+    };
+
+    // console.log(isScrolled);
+
+
     return (
-        <div className="navbar">
+        <div className={isScrolled ? "navbar scrolled": "navbar"}>
             <div className="container">
                 <div className="left">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt= "" /> 
