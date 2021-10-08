@@ -1,5 +1,5 @@
 import "./Navbar.scss"
-import {Search,Notifications} from "@material-ui/icons"
+import {Search,Notifications,ArrowDropDown} from "@material-ui/icons"
 
 
 const Navbar = () => {
@@ -16,10 +16,22 @@ const Navbar = () => {
                     
                 </div>
                 <div className="right">
-                    <Search/>
+                    <Search className="icon"/>
                     <span>KID</span>
-                    <Notifications/>
+                    <Notifications className="icon"/>
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+
+                    <div className="profile">
+
+                        <ArrowDropDown className="icon"/>
+                        <div className="options">
+                        <span> Settings</span>
+                        <span> Logout</span>
+                    
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     )
