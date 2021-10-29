@@ -1,4 +1,4 @@
-import "./Navbar.scss"
+import "./navbar.scss"
 import {Search,Notifications,ArrowDropDown} from "@material-ui/icons"
 import { useState } from "react";
 
