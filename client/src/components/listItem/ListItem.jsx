@@ -2,10 +2,11 @@ import "./listItem.scss"
 import {ThumbDownAltOutlined, ThumbUpAltOutlined, Add, PlayArrow } from "@material-ui/icons"
 import { useRef, useState } from "react";
 
-
 export default function ListItem({index}) {
     const [isHovered,setIsHovered] = useState(false);
-    const trailer = "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761";
+
+    // after 2018 youtybe changed policy to autoplay you need to put it on mute
+    const trailer = "https://www.youtube.com/embed/qlcWFoNqZHc?autoplay=1&mute=1&loop=1&controls=1";
     return (
         
             <div className="listItem" 
@@ -16,7 +17,7 @@ export default function ListItem({index}) {
                 {isHovered && (
                     // react fragments to allowing you to have multiple top-most elements without wrapping further HTML.
                     <>
-                        <video src={trailer} autoPlay = {true} loop />
+                        <iframe src={trailer} frameBorder='0' allow='autoplay; encrypted-media' allowFullScreen title='video'/>
                     
                         <div className="itemInfo">
                             <div className="icons">

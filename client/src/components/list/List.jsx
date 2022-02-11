@@ -9,6 +9,7 @@ export default function List() {
     const [isMoved,setIsMoved] = useState(false);
     const [slideNumber,setSlideNumber] = useState(0);
 
+    // since there is no way to call as element.byid we used yse ref
     const listRef = useRef();
     
     // function to handle left and right arrow click
