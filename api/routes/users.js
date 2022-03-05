@@ -22,6 +22,7 @@ router.put("/:id", verify, async (req, res) => {
         {
           $set: req.body,
         },
+        // to update in new user
         { new: true }
       );
       res.status(200).json(updatedUser);
@@ -47,7 +48,7 @@ router.delete("/:id", verify, async (req, res) => {
   }
 });
 
-//GET
+//GET find user
 
 router.get("/find/:id", async (req, res) => {
   try {
@@ -59,14 +60,14 @@ router.get("/find/:id", async (req, res) => {
   }
 });
 
-//GET ALL
+//GET ALL Users
 router.get("/", verify, async (req, res) => {
   const query = req.query.new;
   if (req.user.isAdmin) {
     try {
       const users = query
         ? await User.find().sort({ _id: -1 }).limit(5)
-        : await User.find();
+        : await User.find(); // to fetch latest data
       res.status(200).json(users);
     } catch (err) {
       res.status(500).json(err);
@@ -76,9 +77,10 @@ router.get("/", verify, async (req, res) => {
   }
 });
 
-//GET USER STATS
+//GET USER STATISTICS
 router.get("/stats", async (req, res) => {
   const today = new Date();
+  // to get last year
   const latYear = today.setFullYear(today.setFullYear() - 1);
 
   try {
