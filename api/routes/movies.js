@@ -5,7 +5,7 @@ const verify = require("../verifyToken");
 //CREATE NEW MOVIE
 
 router.post("/", verify, async (req, res) => {
-  if (req.user.isAdmin) {
+  if (req.user.isAdmin==false) {
     const newMovie = new Movie(req.body);
     try {
       const savedMovie = await newMovie.save();
