@@ -1,17 +1,20 @@
 import "./watch.scss";
 import {ArrowBackOutlined} from "@material-ui/icons";
+import {  Link,useLocation } from "react-router-dom";
 
 export default function Watch() {
+    const location = useLocation();
+        const movie = location.movie;
     return (
+        
         <div className="watch">
+         <Link to="/">
             <div className="back">
                 <ArrowBackOutlined/>
                 Home
             </div>
-            
-            <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c?autoplay=1&mute=1&loop=1&controls=1q"  allow='autoplay'>
-
-            </iframe> 
+            </Link>
+            <video className="video" autoPlay progress controls src="movie.video"/>
 
         </div>
     );

@@ -2,6 +2,7 @@ import "./listItem.scss"
 import {ThumbDownAltOutlined, ThumbUpAltOutlined, Add, PlayArrow } from "@material-ui/icons"
 import { useEffect, useState } from "react";
 import axios from "axios";
+import {  Link,useLocation } from "react-router-dom";
 
 
 export default function ListItem({index,item}) {
@@ -28,6 +29,7 @@ export default function ListItem({index,item}) {
     // after 2018 youtybe changed policy to autoplay you need to put it on mute
     const trailer = "https://www.youtube.com/embed/qlcWFoNqZHc?autoplay=1&mute=1&loop=1&controls=1";
     return (
+        <Link to={{ pathname: "/watch", movie: movie }}>
         
             <div className="listItem" 
             style={{left: isHovered && index *225-50 + index * 2.5}}
@@ -69,6 +71,6 @@ export default function ListItem({index,item}) {
                 )}
                 
             </div>
-        
+        </Link>
     )
 }
