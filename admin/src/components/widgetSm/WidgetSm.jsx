@@ -1,7 +1,8 @@
 import "./widgetSm.css";
+import axios from "axios";
 import { Visibility } from "@material-ui/icons";
 import { useEffect, useState } from "react";
-import axios from "axios";
+
 
 export default function WidgetSm() {
   const [newUsers, setNewUsers] = useState([]);

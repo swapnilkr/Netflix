@@ -1,6 +1,6 @@
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
-import "./app.css";
+import "./App.css";
 import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
@@ -17,7 +17,7 @@ import { useContext } from "react";
 import ListList from "./pages/listList/ListList";
 import List from "./pages/list/List";
 import NewList from "./pages/newList/NewList";
-import MovieList from "./pages/movieList/MovieList";
+import MovieList from "./pages/productList/ProductList";
 import { Movie } from "@material-ui/icons";
 import NewMovie from "./pages/newMovie/NewMovie";
 
