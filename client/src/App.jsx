@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/login">{!user ? <Login /> : <Redirect to="/" />}</Route>
         {user && (
           <>
-            <Route path="/movies">
+            <Route path="/movie">
               <Home type="movie" />
             </Route>
             <Route path="/series">
