@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import { AuthContextProvider } from "./context/authContext/AuthContext";
 import { MovieContextProvider } from "./context/movieContext/MovieContext";
-// import { ListContextProvider } from "./context/listContext/ListContext";
+import { ListContextProvider } from "./context/listContext/ListContext";
 
 ReactDOM.render(
   <React.StrictMode>
     <AuthContextProvider>
       <MovieContextProvider>
-        {/* <ListContextProvider> */}
+        <ListContextProvider>
           <App />
-        {/* </ListContextProvider> */}
+        </ListContextProvider>
       </MovieContextProvider>
     </AuthContextProvider>
   </React.StrictMode>,

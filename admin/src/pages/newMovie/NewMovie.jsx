@@ -20,8 +20,12 @@ export default function NewMovie() {
     setMovie({ ...movie, [e.target.name]: value });
   };
 
+  // admin board to control upload items in firebase
+  // read firebase documentation for clarity
   const upload = (items) => {
     items.forEach((item) => {
+      // if two file have same name then it took it as same file
+      // so differentiating using time stamp
       const fileName = new Date().getTime() + item.label + item.file.name;
       const uploadTask = storage.ref(`/items/${fileName}`).put(item.file);
       uploadTask.on(

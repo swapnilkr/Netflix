@@ -44,6 +44,7 @@ const MovieReducer = (state, action) => {
         };
       case "UPLOAD_MOVIE_SUCCESS":
         return {
+          // if new movie is some updated version, we just update using map and id of older movie with content of new movie
           movies: state.movies.map(
             (movie) => movie._id === action.payload._id && action.payload
           ),
