@@ -5,7 +5,7 @@ Netflix Clone using MERN stack. <br>
 Postman-API testing <br>
 Crypto.js- password hashing <br>
 Login with JWT Authentication <br>
-Used <h5> Context API  </h5> for CRUD operation on movie list on admin side. <br>
+Used Context API for CRUD operation on movie list (admin side). <br>
 
 <h2> <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>Tech used: </h2>
 Node.js  <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="20" height="20"/> </a>  <br>
