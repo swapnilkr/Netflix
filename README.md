@@ -1,38 +1,70 @@
-# Netflix Clone- MERN stack
+<h1 align="center" id="title">Netflix Clone</h1>
 
-<h2> <g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji>Description </h2>
-Netflix Clone using MERN stack. <br>
-Postman-API testing <br>
-Crypto.js- password hashing <br>
-Login with JWT Authentication <br>
-Used Context API for CRUD operation on movie list (admin side). <br>
+<p align="center"><img src="https://socialify.git.ci/swapnilkr/Netflix/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="DHUN-Music-Player-V2" width="640" height="180" /></p>
 
-<h2> <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>Tech used: </h2>
-Node.js  <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="20" height="20"/> </a>  <br>
-Express.js <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="20" height="20"/> </a> <br>
-MongoDB  <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="20" height="20"/> </a><br>
-JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="20" height="20"/> </a><br>
-CSS <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="20" height="20"/> </a><br>
-HTML5 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="20" height="20"/> </a> <br>
-React  <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="20" height="20"/> </a> <br>
-Postman <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="20" height="20"/> </a><br>
+<p id="description">This project is a Netflix clone developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a platform for users to browse movies and TV shows, register an account, and enjoy streaming services akin to Netflix.</p>
+
+<h2>🚀 Project Walkthrough:</h2>
 
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/859f11d8-f18f-466e-b6fb-1dc6deedd758)
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/0d35c770-2b36-4ffc-a09d-eae795748539)
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/a7b167ea-03e7-4713-af46-c521d815e84b)
 
+https://github.com/swapnilkr/Netflix/assets/49485584/7c1d0718-b51b-4e21-bb45-7b84f685be51
 
+<h2>🧐 Features</h2>
+Here're some of the project's best features:
 
+*   Netflix Clone
+*   Authentication flow using React authContext and Mongoose
+*   Crypto.js- password hashing
+*   API to fetch movies list from DB
 
-<h2> Usage </h2>
-<ul>
-<li>Clone the project onto your local machine</li>
-<li>$ cd ../Netflix </li>
-<li>$ npm install </li>
-<li>$ npx create-react-app ./ </li>
-<li>$ npm start </li>
-<li>Visit your website at http://localhost:8000 </li>
-</ul>
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone this project</p>
+
+```
+https://github.com/swapnilkr/Netflix.git
+```
+
+<p>2. Change the directory</p>
+
+```
+cd ../Netflix
+```
+
+<p>3. Install Dependency</p>
+
+```
+npm install
+```
+<p>4. In index.js; Replace mongoose URL</p>
+
+<p>5. Run this command</p>
+
+```
+npm start
+```
+
+<p>6. Vist -&gt;</p>
+
+```
+http://localhost:8000/
+```
+
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+<div align="center">
+  <code><img width="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png" alt="Sass" title="Sass"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png" alt="npm" title="npm"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="mongoDB" title="mongoDB"/></code>
+</div>
 
 <h2><g-emoji class="g-emoji" alias="handshake" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f91d.png">🤝</g-emoji> Contributing </h2>
 Contributions, issues and feature requests are welcome.
