@@ -17,6 +17,8 @@ HTML5 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.
 React  <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="20" height="20"/> </a> <br>
 Postman <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="20" height="20"/> </a><br>
 
+![image](https://github.com/swapnilkr/Netflix/assets/49485584/859f11d8-f18f-466e-b6fb-1dc6deedd758)
+
 
 <h2> Usage </h2>
 <ul>
