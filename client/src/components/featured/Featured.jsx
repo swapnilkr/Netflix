@@ -12,7 +12,7 @@ export default function Featured({ type, setGenre }) {
         const res = await axios.get(`/movies/random?type=${type}`, {
           headers: {
             token:
-              "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
+              "Bearer " + JSON.parse(localStorage.getItem("user")).accessToken,
           },
         });
         setContent(res.data[0]);
@@ -53,7 +53,11 @@ export default function Featured({ type, setGenre }) {
       )}
       <img src={content.img} alt="" />
       <div className="info">
-        <img src={content.imgTitle} alt="" />
+        <img src={content.imgTitle} alt="" style={{
+          width: "40px",
+          height: "40px",
+          borderRadius: "10px"
+        }} />
         <span className="desc">{content.desc}</span>
         <div className="buttons">
           <button className="play">
