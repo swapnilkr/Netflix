@@ -5,9 +5,11 @@
 <p id="description">This project is a Netflix clone developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a platform for users to browse movies and TV shows, register an account, and enjoy streaming services akin to Netflix.</p>
 
 <h2>🚀 Project Walkthrough:</h2>
-
+Home
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/859f11d8-f18f-466e-b6fb-1dc6deedd758)
+Register
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/0d35c770-2b36-4ffc-a09d-eae795748539)
+SignIn
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/a7b167ea-03e7-4713-af46-c521d815e84b)
 
 https://github.com/swapnilkr/Netflix/assets/49485584/7c1d0718-b51b-4e21-bb45-7b84f685be51
