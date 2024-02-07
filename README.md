@@ -18,6 +18,10 @@ React  <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.git
 Postman <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="20" height="20"/> </a><br>
 
 ![image](https://github.com/swapnilkr/Netflix/assets/49485584/859f11d8-f18f-466e-b6fb-1dc6deedd758)
+![image](https://github.com/swapnilkr/Netflix/assets/49485584/0d35c770-2b36-4ffc-a09d-eae795748539)
+![image](https://github.com/swapnilkr/Netflix/assets/49485584/a7b167ea-03e7-4713-af46-c521d815e84b)
+
+
 
 
 <h2> Usage </h2>
