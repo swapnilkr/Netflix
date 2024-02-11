@@ -10,7 +10,7 @@ const listRoute = require("./routes/lists");
 dotenv.config();
 
 mongoose
-  .connect(process.env.MONGO_URL || 'https://127.0.0.1:27017', {
+  .connect(process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/netflix', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   
