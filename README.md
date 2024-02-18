@@ -23,7 +23,6 @@ https://github.com/swapnilkr/Netflix/assets/49485584/7c1d0718-b51b-4e21-bb45-7b8
 Here're some of the project's best features:
 
 *   Netflix Clone
-*   Authentication flow using React authContext and Mongoose
 *   Crypto.js- password hashing
 *   API to fetch movies list from DB
 
